@@ -1,0 +1,58 @@
+/* Обнулення  */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+ul,
+li,
+button,
+pre {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+body {
+  font-family: $font-family;
+  color: $gray;
+  font-weight: 400;
+}
+
+.button {
+  background: $black;
+  border: none;
+  outline: none;
+  font-family: $font-family;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: $white;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #525255;
+}
+
+a, button {
+  transition: all .5s ease-in-out;
+}
